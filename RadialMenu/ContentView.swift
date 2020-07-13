@@ -97,12 +97,16 @@ struct ContentView: View {
             Color.black
                 .edgesIgnoringSafeArea(.all)
             
-            RadialMenu(title: "Attach...",
-                       closedImage: Image(systemName: "ellipsis.circle"),
-                       openImage: Image(systemName: "multiply.circle.fill"),
-                       buttons: buttons,
-                       animation: .interactiveSpring(response: 0.4,
-                                                     dampingFraction: 0.6))
+//            RadialMenu(title: "Attach...",
+//                       closedImage: Image(systemName: "ellipsis.circle"),
+//                       openImage: Image(systemName: "multiply.circle.fill"),
+//                       buttons: buttons,
+//                       animation: .interactiveSpring(response: 0.4,
+//                                                     dampingFraction: 0.6))
+                LinearButtonArray(title: "Attach...",
+                                  closeImage: Image(systemName: "multiply.circle.fill"),
+                                  openImage: Image(systemName: "ellipsis.circle.fill"),
+                                  buttons: buttons)
                 .offset(x: -20, y: -20)
                 .buttonStyle(CustomButtonStyle())
         }

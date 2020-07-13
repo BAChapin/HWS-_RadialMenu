@@ -11,6 +11,7 @@
 		FEE5C4FE24BBFA8B0023C0DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE5C4FD24BBFA8B0023C0DE /* ContentView.swift */; };
 		FEE5C50024BBFA8B0023C0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE5C4FF24BBFA8B0023C0DE /* Assets.xcassets */; };
 		FEE5C50324BBFA8B0023C0DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE5C50224BBFA8B0023C0DE /* Preview Assets.xcassets */; };
+		FEE5C50B24BC05BC0023C0DE /* LinearButtonArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE5C50A24BC05BC0023C0DE /* LinearButtonArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FEE5C4FF24BBFA8B0023C0DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEE5C50224BBFA8B0023C0DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FEE5C50424BBFA8B0023C0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE5C50A24BC05BC0023C0DE /* LinearButtonArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearButtonArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				FEE5C4FB24BBFA8B0023C0DE /* RadialMenuApp.swift */,
 				FEE5C4FD24BBFA8B0023C0DE /* ContentView.swift */,
+				FEE5C50A24BC05BC0023C0DE /* LinearButtonArray.swift */,
 				FEE5C4FF24BBFA8B0023C0DE /* Assets.xcassets */,
 				FEE5C50424BBFA8B0023C0DE /* Info.plist */,
 				FEE5C50124BBFA8B0023C0DE /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEE5C4FE24BBFA8B0023C0DE /* ContentView.swift in Sources */,
+				FEE5C50B24BC05BC0023C0DE /* LinearButtonArray.swift in Sources */,
 				FEE5C4FC24BBFA8B0023C0DE /* RadialMenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
